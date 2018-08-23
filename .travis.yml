@@ -1,4 +1,4 @@
 
 language: python
-script:
-- exit 0
+script: 
+- bash test.sh
