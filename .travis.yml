@@ -1,5 +1,4 @@
 
 language: python
-script:
-- output=$(python hello.py)
-- if [ "$output" != "hello" ]; then exit 1; fi
+script: 
+- bash test.sh
